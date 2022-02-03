@@ -33,7 +33,7 @@ GappleApi.checkPHD('1449546f71de47ebbef8809cd3afd6c6').then(resp => {
 /*
     Check if a username will be reclaimed
     requires username to check and current account username
-    !!!! This example will not work anymore because 
+    ! This example will not work
 */
 GappleApi.checkReclaim('username_to_check', 'current_account_name').then(resp => {
     console.log(resp)
