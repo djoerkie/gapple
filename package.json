@@ -11,6 +11,13 @@
     "api",
     "wrapper"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djoerkie/gapple"
+  },
+  "bugs": {
+    "url": "https://github.com/djoerkie/gapple/issues"
+  },
   "author": "djoerkie",
   "license": "ISC",
   "dependencies": {
