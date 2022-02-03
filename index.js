@@ -57,13 +57,10 @@ function _post(url, data) {
 }
 function checkPHD(uuid) {
     return __awaiter(this, void 0, void 0, function () {
-        var resp;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0: return [4, _get("phd/" + uuid)];
-                case 1:
-                    resp = _a.sent();
-                    return [2, resp];
+                case 1: return [2, (_a.sent())];
             }
         });
     });
@@ -135,5 +132,4 @@ function getUserNames(uuid) {
     });
 }
 exports.getUserNames = getUserNames;
-getUserNames('324c4c2cddff45b2aeebf0967cf6cf5d').then(console.log);
 //# sourceMappingURL=index.js.map

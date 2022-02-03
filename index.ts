@@ -60,8 +60,7 @@ export interface CORS_NAMES {
 */
 
 export async function checkPHD(uuid: string): Promise<PHD> {
-    const resp = await _get<PHD>(`phd/${uuid}`);
-    return resp;
+    return (await _get<PHD>(`phd/${uuid}`));
 }
 
 
