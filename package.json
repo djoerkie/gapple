@@ -1,6 +1,6 @@
 {
   "name": "gapple",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An api wrapper for api.gapple.pw",
   "main": "index.js",
   "scripts": {
